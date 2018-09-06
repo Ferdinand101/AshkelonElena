@@ -1,15 +1,12 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     private SessionHelper sessionHelper;
-    private  LeftNavMenuHelper leftNavMenuHelper;
+   private GroupHelper groupHelper;
 
     WebDriver driver;
 
@@ -21,7 +18,7 @@ public class ApplicationManager {
         driver.get("https://www.wikipedia.org/");
        // Thread.sleep(3000);
         sessionHelper = new SessionHelper(driver);
-        leftNavMenuHelper = new LeftNavMenuHelper(driver);
+        groupHelper = new GroupHelper(driver);
     }
 
     public void stop() {
@@ -55,7 +52,6 @@ public class ApplicationManager {
         return sessionHelper;
     }
 
-    public LeftNavMenuHelper getLeftNavMenuHelper() {
-        return leftNavMenuHelper;
-    }
+
 }
+
