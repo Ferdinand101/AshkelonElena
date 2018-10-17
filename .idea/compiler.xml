@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="addressbook-selenium_main" target="1.8" />
       <module name="addressbook-selenium_test" target="1.8" />
+      <module name="mishpahug-web-tests_main" target="1.8" />
+      <module name="mishpahug-web-tests_test" target="1.8" />
       <module name="Wikipedia-test_main" target="1.8" />
       <module name="Wikipedia-test_test" target="1.8" />
     </bytecodeTargetLevel>
