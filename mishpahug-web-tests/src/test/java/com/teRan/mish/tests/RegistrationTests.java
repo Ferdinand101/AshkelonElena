@@ -34,7 +34,8 @@ public class RegistrationTests extends  TestBase {
 
     //Fill account form
     //religious = Irreligious
-    app.getUserHelper().fillAccountInformationForm("Moshe", "LastName", "545667788", "Religious", "1974");
+    app.getUserHelper().fillPersonalInformationForm("Moshe", "LastName", "545667788", "Religious", "1974", "JAN", "18");
+app.getUserHelper().fillAboutMyselfForm("In a relationship", "Kosher", "Male", "English", "text");
   }
 
 
