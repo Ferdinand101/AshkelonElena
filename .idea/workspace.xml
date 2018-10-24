@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c6ac28-0666-4501-b913-41608eef470c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" />
       <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" />
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/addressbook-selenium/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressbook-selenium/build/" />
@@ -83,20 +84,22 @@
       <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="314">
+              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,12 +108,11 @@
       <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="336">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,18 +121,16 @@
       <file leaf-file-name="UserHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="12">
+              <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#2732#2733#0" expanded="true" />
-                <element signature="e#2773#2774#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1317#1318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +161,8 @@
       <file leaf-file-name="RegistrationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="37" column="96" lean-forward="false" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
+            <state relative-caret-position="-121">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
@@ -177,7 +177,7 @@
       <file leaf-file-name="FillAccountTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="136">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -192,6 +192,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>waitandclick</find>
+      <find>wa</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1026,11 +1032,12 @@
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/UserHelper.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/NotRegisteredUserData.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/RegistrationTests.java" />
-        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/model/NotRegisteredUserData.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" />
       </list>
     </option>
@@ -1457,18 +1464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 10h 39m 14s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 12h 53m 22s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 12h 58m 22s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 13h 09m 23s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 13h 10m 18s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
@@ -1487,6 +1482,18 @@
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 56m 44s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 10h 32m 28s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 10h 34m 11s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 07m 11s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 10m 59s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1036" height="733" extended-state="0" />
@@ -1500,13 +1507,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20424837" sideWeight="0.16122448" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18469217" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43926787" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014344262" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11065574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014344262" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1542,12 +1549,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2046589" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18469217" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05840164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.015306123" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014344262" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1879,38 +1886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1940,14 +1915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1958,10 +1925,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="37" column="96" lean-forward="false" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
+        <state relative-caret-position="-121">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
@@ -1974,18 +1982,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="12">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#2732#2733#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
           </folding>
         </state>
       </provider>

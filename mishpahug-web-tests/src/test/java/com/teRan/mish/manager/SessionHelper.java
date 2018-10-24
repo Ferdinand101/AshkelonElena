@@ -8,16 +8,13 @@ public class SessionHelper extends HelperBase {
 
   public SessionHelper(WebDriver wd) {
     super(wd);
-
   }
-
   public void deleteCookies() {
     wd.manage().deleteAllCookies();
   }
   public boolean isloggedIn() {
     return isElementPresent(By.cssSelector("button [mattooltip='Menu']"));
   }
-
   public void clickOnLoginButtonOnHeader() {
     wd.findElement(By.xpath("//span[contains(.,'Login')]")).click();
   }
