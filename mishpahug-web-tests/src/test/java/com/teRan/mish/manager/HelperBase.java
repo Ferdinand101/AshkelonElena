@@ -42,4 +42,13 @@ public class HelperBase {
     action.sendKeys(Keys.ESCAPE).build().perform();
   }
 
+  public void chooseOption(String field, String myChoice) throws InterruptedException {
+    waitAndClick(3000, By.cssSelector("[placeholder='"+field+"']"));
+    waitAndClick(3000, By.xpath("//*[contains(text(), '" + myChoice + "')]"));
+  }
+
+  public void clickOnTheSaveButton() throws InterruptedException {
+    waitAndClick(2000, By.cssSelector("[type=submit]"));
+
+  }
 }

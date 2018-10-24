@@ -11,6 +11,7 @@ public class ApplicationManager {
 
   private  UserHelper userHelper;
   private SessionHelper sessionHelper;
+  private EventHelper eventHelper;
   WebDriver wd;
 
   public void start() {
@@ -24,11 +25,10 @@ public class ApplicationManager {
     wd.navigate().to("https://mish.sheygam.com");
     sessionHelper = new SessionHelper(wd);
     userHelper =  new UserHelper(wd);
+    eventHelper = new EventHelper(wd);
   }
 
-
-
-  public void stop() {
+   public void stop() {
     wd.quit();
   }
 
@@ -39,11 +39,7 @@ public class ApplicationManager {
             .isDisplayed();
   }
 
-  public void submitLogin() throws InterruptedException {
-    Thread.sleep(3000);
-    wd.findElement(By.xpath("//button[@type='submit']//span[contains(text(),'Log in')]")).click();
-    Thread.sleep(3000);
-  }
+
 
 
 
@@ -53,5 +49,9 @@ public class ApplicationManager {
 
   public UserHelper getUserHelper() {
     return userHelper;
+  }
+
+  public EventHelper getEventHelper() {
+    return eventHelper;
   }
 }

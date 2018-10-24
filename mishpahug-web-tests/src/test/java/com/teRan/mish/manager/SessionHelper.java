@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class SessionHelper extends HelperBase {
+  UserHelper userHelper = new UserHelper(wd);
 
 
   public SessionHelper(WebDriver wd) {
@@ -32,5 +33,15 @@ public class SessionHelper extends HelperBase {
   public void clickOnHamburgerButton() {
     wd.findElement(By.cssSelector("button [mattooltip='Menu']")).click();
   }
+  public void submitLogin() throws InterruptedException {
+    Thread.sleep(3000);
+    wd.findElement(By.xpath("//button[@type='submit']//span[contains(text(),'Log in')]")).click();
+    Thread.sleep(3000);
+  }
 
+  public void login() throws InterruptedException {
+    clickOnLoginButtonOnHeader();
+    userHelper.fillLogInForm("qa15@bii.com", "a123456");
+    submitLogin();
+  }
 }

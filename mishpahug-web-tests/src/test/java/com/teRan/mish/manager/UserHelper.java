@@ -78,10 +78,7 @@ public class UserHelper extends HelperBase {
     type(By.cssSelector("textarea"), text);
   }
 
-  public void chooseOption(String field, String myChoice) throws InterruptedException {
-    waitAndClick(3000, By.cssSelector("[placeholder='"+field+"']"));
-    waitAndClick(3000, By.xpath("//*[contains(text(), '" + myChoice + "')]"));
-  }
+
 
   public void chooseTwoOptions(String field, String myChoice, String myChoice2) throws InterruptedException {
     waitAndClick(3000, By.cssSelector("[placeholder='" + field + "']"));
@@ -96,11 +93,6 @@ public class UserHelper extends HelperBase {
 
   }
 
-
-  public void savePersonalInformationForm() throws InterruptedException {
-    waitAndClick(2000, By.cssSelector("[type=submit]"));
-
-  }
 
   public boolean waitForElementPresent(int millis, By locator) throws InterruptedException {
     Thread.sleep(millis);

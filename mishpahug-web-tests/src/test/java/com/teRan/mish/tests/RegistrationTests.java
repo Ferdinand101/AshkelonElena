@@ -37,7 +37,7 @@ public class RegistrationTests extends  TestBase {
     //religious = Irreligious
     app.getUserHelper().fillPersonalInformationForm("Moshe", "LastName", "545667788", "Religious", "1974", "JAN", "18");
 app.getUserHelper().fillAboutMyselfForm("In a relationship", "Kosher", "Male", "English", "text");
-  app.getUserHelper().savePersonalInformationForm();
+  app.getUserHelper().clickOnTheSaveButton();
 
   Assert.assertTrue(app.getUserHelper().waitForElementPresent(3000, By.xpath("//*[contains(text(), 'Find event')]")));
         //  .waitForElementPresent(2000, By.xpath("//*[contains(text(), 'You was successfully created your profile']")));

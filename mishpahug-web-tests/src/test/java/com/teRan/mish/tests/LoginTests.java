@@ -17,7 +17,7 @@ public class LoginTests extends TestBase{
   public void testLoginRegisteredUser() throws InterruptedException {
     app.getSessionHelper().clickOnLoginButtonOnHeader();
     app.getUserHelper().fillLogInForm("qa15@bii.com", "a123456");
-    app.submitLogin();
+    app.getSessionHelper().submitLogin();
 
     Thread.sleep(3000);
 
