@@ -1,6 +1,7 @@
 package com.teRan.mish.tests;
 
 import com.teRan.mish.model.NotRegisteredUserData;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -36,9 +37,11 @@ public class RegistrationTests extends  TestBase {
     //religious = Irreligious
     app.getUserHelper().fillPersonalInformationForm("Moshe", "LastName", "545667788", "Religious", "1974", "JAN", "18");
 app.getUserHelper().fillAboutMyselfForm("In a relationship", "Kosher", "Male", "English", "text");
+  app.getUserHelper().savePersonalInformationForm();
+
+  Assert.assertTrue(app.getUserHelper().waitForElementPresent(3000, By.xpath("//*[contains(text(), 'Find event')]")));
+        //  .waitForElementPresent(2000, By.xpath("//*[contains(text(), 'You was successfully created your profile']")));
   }
-
-
 
   @Test
   public void registrationFromLoginForm() throws InterruptedException {

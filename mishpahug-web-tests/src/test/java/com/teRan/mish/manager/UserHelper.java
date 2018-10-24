@@ -2,9 +2,7 @@ package com.teRan.mish.manager;
 
 import com.teRan.mish.model.NotRegisteredUserData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 
 public class UserHelper extends HelperBase {
 
@@ -99,6 +97,13 @@ public class UserHelper extends HelperBase {
   }
 
 
+  public void savePersonalInformationForm() throws InterruptedException {
+    waitAndClick(2000, By.cssSelector("[type=submit]"));
 
+  }
 
+  public boolean waitForElementPresent(int millis, By locator) throws InterruptedException {
+    Thread.sleep(millis);
+    return isElementPresent(locator);
+  }
 }

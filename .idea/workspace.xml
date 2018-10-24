@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c6ac28-0666-4501-b913-41608eef470c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" />
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/addressbook-selenium/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressbook-selenium/build/" />
@@ -84,7 +84,7 @@
       <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="-7">
               <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,7 +108,7 @@
       <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="-7">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#313#314#0" expanded="true" />
@@ -118,19 +118,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            <state relative-caret-position="94">
+              <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,17 +158,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegistrationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="67">
+              <caret line="41" column="116" lean-forward="false" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#2299#2300#0" expanded="true" />
+                <element signature="e#2336#2337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +177,7 @@
       <file leaf-file-name="FillAccountTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-7">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -1035,10 +1035,10 @@
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/model/NotRegisteredUserData.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java" />
-        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java" />
       </list>
     </option>
   </component>
@@ -1464,21 +1464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 13h 10m 18s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 13h 14m 45s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 13h 16m 24s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 19m 28s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 24m 10s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 56m 44s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
@@ -1494,6 +1479,21 @@
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 10m 59s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 40m 55s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 43m 46s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 45m 48s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 53m 42s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 58m 06s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1036" height="733" extended-state="0" />
@@ -1507,12 +1507,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20424837" sideWeight="0.16122448" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43926787" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44425955" sideWeight="0.8387755" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11065574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.014344262" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1572,7 +1572,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java</url>
-          <line>57</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -1927,7 +1927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="-7">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
@@ -1938,7 +1938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="-7">
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1960,38 +1960,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/FillAccountTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-7">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java">
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="94">
+          <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/manager/UserHelper.java">
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/teRan/mish/tests/RegistrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        <state relative-caret-position="67">
+          <caret line="41" column="116" lean-forward="false" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
           </folding>
         </state>
       </provider>
