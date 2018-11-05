@@ -13,8 +13,10 @@ public class EventCreationTests extends TestBase {
   @Test
   public void testCreationEventFromEventsList() throws InterruptedException {
     app.getEventHelper().clickOnAddEventButton();
-    app.getEventHelper().fillEventForm("txt", "Shabat","Exodus 5, Ashkelon, Israel", "Irreligious", "Any", "vvv");
+    app.getEventHelper().fillEventForm("txt", "Shabat","Exodus 5, Ashkelon, Israel", "DEC 2018", "28","Irreligious", "Any", "vvv");
     app.getEventHelper().clickOnTheSaveButton();
+
+    app.getUserHelper().clickOnCreateAccountButtonOnHeader();
 
 
   }

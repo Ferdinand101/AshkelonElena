@@ -5,12 +5,20 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class HelperBase {
   WebDriver wd;
+  WebDriverWait wait;
 
-  public HelperBase(WebDriver wd) {
+  public HelperBase(WebDriver wd ) {
     this.wd = wd;
+   // wait = new WebDriverWait(wd, SECONDS);
   }
 
   public boolean isElementPresent(By locator) {
@@ -29,7 +37,8 @@ public class HelperBase {
   }
 
   public void waitAndClick(int millis, By locator) throws InterruptedException {
-    Thread.sleep(millis);
+    wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+   // Thread.sleep(millis);
     click(locator);
   }
 
